@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f24e4d493d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mba.css">
+    <title>MBA</title>
+   
+</head>
+<body>
+
+
+ <div class="bg-container">
+
+    <div class="heading-container">
+        <div>
+            <a href="../new.html"><i class="fa-solid fa-arrow-left-long icon"></i></a>
+        </div> 
+
+        
+
+        <div>
+            <h1 class="main-heading"> Department of Master of Business Administration  -  <span class="hecura">VALENS</span></h1>
+        </div>
+        </div>
+
+    <div class="tab-register-container">
+        <div>
+
+    <nav class="nav">
+        <ul class="nav-tab"> 
+            <li class="nav-item nav-space" id="nav-item1">
+                <button class="tab-btn" onclick="technicalTab()" id="btn1">Technical </button>
+            </li>
+            <li class="nav-item nav-space" id="nav-item2">
+                <button class="tab-btn" onclick="nonTechnicalTab()" id="btn2">Non-Technical </button>
+            </li>
+            <!-- <li class="nav-item nav-space" id="nav-item3">
+                <button class="tab-btn" onclick="flagshipTab()" id="btn3">FlagShip</button>
+            </li> -->
+        </ul>
+    </nav>
+
+        <ul class="tabs-container">
+            <li class="item" id="item1">
+                <button onclick="technicalTab()" class="tab-btn " id="btn1">Technical Events</button>
+            </li>
+            <li class="item" id="item2">
+                <button onclick="nonTechnicalTab()" class="tab-btn" id="btn2">Non-Technical Events</button>
+            </li>
+            <!-- <li class="item" id="item3">
+                <button onclick="flagshipTab()" class="tab-btn" id="btn3">FlagShip</button>
+            </li> -->
+            </ul>
+        </div>
+
+        <div class="reg-item">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLXTQZqKTuilQpRi-cABz666jqojHdFMHQk0rMMAnr4awBGw/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link" > <button class="reg-btn">Register Now</button></a>
+            </div>
+
+        </div>
+
+    <div class="all-events-container" >
+     <ul class="event-container" id="technicalEvent" >
+        <a href="./mba/paper/paper.html">
+        <li class="event">
+            <img src="./images/paper.jpg" alt="img" class="img"/>
+            <div class="content">
+                <p>Paper Presentation</p>
+            </div>
+        </li>
+    </a>
+    <a href="./mba/best manager/bestmanager.html">
+        <li class="event">
+             <img src="./images/best manager.jpg" alt="img" class="img"/>
+             <div class="content">
+                <p>Best Manager</p>
+            </div>
+            </li>
+        </a>
+
+        <a href="./mba/business quiz/business.html">
+        <li class="event">
+            <img src="./images/business quiz.jpg" alt="img" class="img"/>
+            <div class="content">
+                <p>Business Quiz</p>
+            </div>
+        </li>
+             
+    </a>
+
+       
+        </ul>
+
+        <ul class="event-container" id="nonTechnicalEvent" >
+
+            <a href="./mba/ipl auction/ipl.html">
+                <li class="event">
+                <img src="./images/ipl.jpg" alt="img" class="img"/>
+                <div class="content">
+                    <p>IPL Auction</p>
+                </div>
+            </li>
+            </a>
+            
+            <a href="./mba/current affiars/cyrrent.html">
+                <li class="event">
+                <img src="./images/current.jpg" alt="img" class="img"/>
+                <div class="content">
+                    <p>Current Affairs</p>
+                </div>
+            </li>
+            </a>
+            
+            <a href="./mba/adzap/adzap.html">
+                <li class="event">
+                <img src="./images/adzap.jpg" alt="img" class="img imgEpo"/>
+                <div class="content">
+                    <p>ADZAP</p>
+                </div>
+            </li>
+            </a>
+            </ul>
+
+            <!-- <ul class="event-container" id="flagshipEvent" >
+
+                <a href="../flagship/Free Fire/freefire.html">
+                    <li class="event">
+                    <img src="./images/esports.png" alt="img" class="img imgEpo"/>
+                    <div class="content">
+                        <p>Free Fire</p>
+                    </div>
+                </li>
+                </a>
+
+                <a href="../flagship/pubg/bgmi.html">
+                    <li class="event">
+                    <img src="./images/esportsbgmi.jpg" alt="img" class="img imgEpo"/>
+                    <div class="content">
+                        <p> BGMI</p>
+                    </div>
+                </li>
+                </a>
+                
+                <a href="../flagship/Treasure Hunt/Tresure hunt.html">
+                    <li class="event">
+                    <img src="./images/treasurehunt.jpg" alt="img" class="img imgEpo"/>
+                    <div class="content">
+                        <p>Treasure Hunt</p>
+                    </div>
+                </li>
+                </a>
+                </ul> -->
+        </div>
+        
+ </div>
+
+
+<script>
+    let technicalBtnEl = document.getElementById("btn1");
+let nonTechnicalBtn = document.getElementById("btn2");
+
+
+let technicalEventTabEl = document.getElementById("technicalEvent");
+let nonTechnicalEventTabEl = document.getElementById("nonTechnicalEvent");
+
+
+let item1=document.getElementById("item1");
+let item2=document.getElementById("item2");
+
+
+let navItem1=document.getElementById("nav-item1");
+let navItem2=document.getElementById("nav-item2");
+
+
+item2.classList.remove("item");
+
+
+navItem2.classList.remove("nav-item");
+
+
+nonTechnicalEventTabEl.classList.add("d-none");
+
+
+function technicalTab() {
+    technicalEventTabEl.classList.remove("d-none");
+    nonTechnicalEventTabEl.classList.add("d-none");
+  
+
+    technicalBtnEl.classList.add("selected-button");
+    nonTechnicalBtn.classList.remove("selected-button");
+    
+
+    item1.classList.add("item");
+    item2.classList.remove("item");
+
+    
+    navItem1.classList.add("nav-item");
+    navItem2.classList.remove("nav-item");
+ 
+}
+
+
+
+
+function nonTechnicalTab() {
+    technicalEventTabEl.classList.add("d-none");
+    nonTechnicalEventTabEl.classList.remove("d-none");
+ 
+
+    technicalBtnEl.classList.remove("selected-button");
+    nonTechnicalBtn.classList.add("selected-button");
+  
+
+    item1.classList.remove("item");
+    item2.classList.add("item");
+    
+
+    navItem1.classList.remove("nav-item");
+    navItem2.classList.add("nav-item");
+   
+}
+
+
+
+// function flagshipTab() {
+//     technicalEventTabEl.classList.add("d-none");
+//     nonTechnicalEventTabEl.classList.add("d-none");
+//     flagshipEventTabEl.classList.remove("d-none");
+
+//     technicalBtnEl.classList.remove("selected-button");
+//     nonTechnicalBtn.classList.remove("selected-button");
+//     flagshipBtnEl.classList.add("selected-button");
+
+//     item1.classList.remove("item");
+//     item2.classList.remove("item");
+//     item3.classList.add("item");
+
+//     navItem1.classList.remove("nav-item");
+//     navItem2.classList.remove("nav-item");
+//     navItem3.classList.add("nav-item");
+// }
+</script>
+
+
+</body>
+</html>

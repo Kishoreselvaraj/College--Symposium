@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+
+.all{
+  position: absolute;
+}
+
+.upper-space-1{
+    height: 20vh;
+}
+.upper-space-2{
+  height: 10vh;
+}
+
+.dev{
+  background-color: #282828;
+  width: 300px;
+  height: 180px;
+  padding-top: 40px;
+  color: beige;
+  justify-content: center;
+}
+
+.card-title{
+  color: #0D9B24;
+  font-weight: 700;
+}
+
+.dev:hover{
+  box-shadow: 0 0 40px rgba(0, 255, 0, 0.8);
+}
+.card-img-circle{
+  width: 115px;
+  height: 113px;
+  border-radius: 50%;
+  position:absolute;
+  z-index: 2;
+  left: 95px;
+  top: -40px;
+}
+
+.navbar{
+  display: none;
+}
+
+
+
+
+@media (max-width:460px) {
+    .icons-row {
+      display: none;
+    }
+
+    .navbar{
+      display: block;
+    }
+    .upper-space-1{
+      height: 0vh;
+    }
+    .carousel-inner{
+      padding-top:0rem !important;
+    }
+    
+    .whole{
+      flex: 100%;
+      position: absolute;
+      right: 20px;
+      margin-top: 80px;
+      overflow: hidden;
+      z-index: -1;
+    }
+
+    .navbar{
+      background-color: black;
+    }
+
+  
+    
+  }
+

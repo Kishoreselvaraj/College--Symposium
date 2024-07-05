@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f24e4d493d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="eee.css">
+    <title>EEE</title>
+    <link rel="icon" href="./images/eee logo.png">
+</head>
+<body>
+
+
+ <div class="bg-container">
+
+    <div class="heading-container">
+        <a href="../new.html"><div>
+            <i class="fa-solid fa-arrow-left-long icon"></i>
+        </div> 
+    </a>
+
+        <div class="logo-container">
+            <img src="./images/eee logo.png" alt="logo" class="logo"/>
+        </div>
+
+        <div>
+            <h1 class="main-heading"> Department of Electrical and Electronics Engineering  -  <span class="hecura">IGNIS</span></h1>
+        </div>
+        </div>
+
+    <div class="tab-register-container">
+        <div>
+
+    <nav class="nav">
+        <ul class="nav-tab"> 
+            <li class="nav-item nav-space" id="nav-item1">
+                <button class="tab-btn" onclick="technicalTab()" id="btn1">Technical </button>
+            </li>
+            <li class="nav-item nav-space" id="nav-item2">
+                <button class="tab-btn" onclick="nonTechnicalTab()" id="btn2">Non-Technical </button>
+            </li>
+            <li class="nav-item nav-space" id="nav-item3">
+                <button class="tab-btn" onclick="flagshipTab()" id="btn3">FlagShip</button>
+            </li>
+        </ul>
+    </nav>
+
+        <ul class="tabs-container">
+            <li class="item" id="item1">
+                <button onclick="technicalTab()" class="tab-btn " id="btn1">Technical Events</button>
+            </li>
+            <li class="item" id="item2">
+                <button onclick="nonTechnicalTab()" class="tab-btn" id="btn2">Non-Technical Events</button>
+            </li>
+            <li class="item" id="item3">
+                <button onclick="flagshipTab()" class="tab-btn" id="btn3">FlagShip</button>
+            </li>
+            </ul>
+        </div>
+
+        <div class="reg-item">
+             <a href="https://forms.gle/RBRkf54XhuP6KLT18"><button class="reg-btn">Register Now</button></a>
+            </div>
+
+        </div>
+
+    <div class="all-events-container" >
+     <ul class="event-container" id="technicalEvent" >
+        <a href="./EEE/Paper presentation/paperpresentation.html">
+        <li class="event">
+            <img src="./images/paper.jpg" alt="img" class="img"/>
+            <div class="content">
+                <p>Paper'nza</p>
+            </div>
+        </li>
+    </a>
+    <a href="./EEE/project presentation/project.html">
+        <li class="event">
+             <img src="./images/project.jpg" alt="img" class="img"/>
+             <div class="content">
+                <p>Innosphere</p>
+            </div>
+            </li>
+        </a>
+
+        <a href="./EEE/technicalquiz/technicalquiz.html">
+        <li class="event">
+            <img src="./images/quizz.jpg" alt="img" class="img"/>
+            <div class="content">
+                <p>Wonderminds</p>
+            </div>
+        </li>
+             
+    </a>
+        
+        </ul>
+
+        <ul class="event-container" id="nonTechnicalEvent" >
+
+            <a href="./EEE/triva/trivia.html">
+                <li class="event">
+                <img src="./images/trivia.jpg" alt="img" class="img"/>
+                <div class="content">
+                    <p>Trivia</p>
+                </div>
+            </li>
+            </a>
+            
+            <a href="./EEE/meme creation/meme.html">
+                <li class="event">
+                <img src="./images/dpov.jpg" alt="img" class="img imgEpo"/>
+                <div class="content">
+                    <p>DPOV</p>
+                </div>
+            </li>
+            </a>
+            </ul>
+
+            <ul class="event-container" id="flagshipEvent" >
+
+                <a href="../flagship/Free Fire/freefire.html">
+                    <li class="event">
+                    <img src="./images/esports.png" alt="img" class="img imgEpo"/>
+                    <div class="content">
+                        <p>Free Fire</p>
+                    </div>
+                </li>
+                </a>
+
+                <a href="../flagship/pubg/bgmi.html">
+                    <li class="event">
+                    <img src="./images/esportsbgmi.jpg" alt="img" class="img imgEpo"/>
+                    <div class="content">
+                        <p> BGMI</p>
+                    </div>
+                </li>
+                </a>
+                
+                <a href="../flagship/Treasure Hunt/Tresure hunt.html">
+                    <li class="event">
+                    <img src="./images/treasurehunt.jpg" alt="img" class="img imgEpo"/>
+                    <div class="content">
+                        <p>Treasure Hunt</p>
+                    </div>
+                </li>
+                </a>
+                </ul>
+        </div>
+        
+ </div>
+
+
+<script>
+    let technicalBtnEl = document.getElementById("btn1");
+let nonTechnicalBtn = document.getElementById("btn2");
+let flagshipBtnEl = document.getElementById("btn3");
+
+let technicalEventTabEl = document.getElementById("technicalEvent");
+let nonTechnicalEventTabEl = document.getElementById("nonTechnicalEvent");
+let flagshipEventTabEl = document.getElementById("flagshipEvent");
+
+let item1=document.getElementById("item1");
+let item2=document.getElementById("item2");
+let item3=document.getElementById("item3");
+
+let navItem1=document.getElementById("nav-item1");
+let navItem2=document.getElementById("nav-item2");
+let navItem3=document.getElementById("nav-item3");
+
+item2.classList.remove("item");
+item3.classList.remove("item");
+
+navItem2.classList.remove("nav-item");
+navItem3.classList.remove("nav-item");
+
+nonTechnicalEventTabEl.classList.add("d-none");
+flagshipEventTabEl.classList.add("d-none");
+
+function technicalTab() {
+    technicalEventTabEl.classList.remove("d-none");
+    nonTechnicalEventTabEl.classList.add("d-none");
+    flagshipEventTabEl.classList.add("d-none");
+
+    technicalBtnEl.classList.add("selected-button");
+    nonTechnicalBtn.classList.remove("selected-button");
+    flagshipBtnEl.classList.remove("selected-button");
+
+    item1.classList.add("item");
+    item2.classList.remove("item");
+    item3.classList.remove("item");
+    
+    navItem1.classList.add("nav-item");
+    navItem2.classList.remove("nav-item");
+    navItem3.classList.remove("nav-item");
+}
+
+
+
+
+function nonTechnicalTab() {
+    technicalEventTabEl.classList.add("d-none");
+    nonTechnicalEventTabEl.classList.remove("d-none");
+    flagshipEventTabEl.classList.add("d-none");
+
+    technicalBtnEl.classList.remove("selected-button");
+    nonTechnicalBtn.classList.add("selected-button");
+    flagshipBtnEl.classList.remove("selected-button");
+
+    item1.classList.remove("item");
+    item2.classList.add("item");
+    item3.classList.remove("item");
+
+    navItem1.classList.remove("nav-item");
+    navItem2.classList.add("nav-item");
+    navItem3.classList.remove("nav-item");
+}
+
+
+
+function flagshipTab() {
+    technicalEventTabEl.classList.add("d-none");
+    nonTechnicalEventTabEl.classList.add("d-none");
+    flagshipEventTabEl.classList.remove("d-none");
+
+    technicalBtnEl.classList.remove("selected-button");
+    nonTechnicalBtn.classList.remove("selected-button");
+    flagshipBtnEl.classList.add("selected-button");
+
+    item1.classList.remove("item");
+    item2.classList.remove("item");
+    item3.classList.add("item");
+
+    navItem1.classList.remove("nav-item");
+    navItem2.classList.remove("nav-item");
+    navItem3.classList.add("nav-item");
+}
+</script>
+
+
+</body>
+</html>

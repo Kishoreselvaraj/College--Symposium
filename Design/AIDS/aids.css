@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+*{
+    margin: 0px;
+}
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://res.cloudinary.com/dkajwlkzq/image/upload/v1707990225/Rectangle_55_dxkvnv.png");
+    height: 100vh;
+    background-size: cover;
+  
+}
+
+.logo-container{
+  background-color: white;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+.logo{
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+}
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 100%;
+}
+
+.hecura{
+ 
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none;
+}
+.icon{
+    color: white;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.main-heading{
+    color: white;
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: bold;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+.imgEpo{
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.tab-register-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+.tabs-container {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 900px;
+  }
+
+
+  .tab-btn {
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #9aa5b1;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-width: 0px;
+  }
+
+  .tab-btn:hover{
+    color: aliceblue;
+    transition: .6s;
+  }
+ 
+  .tab-btn:focus{
+    outline: none !important;
+  }
+ 
+
+  .reg-item{
+    margin-left: 50px;
+  }
+  .reg-btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 14px;
+  }
+  .reg-btn:hover{
+    background-color: white;
+    border-radius: 20px;
+    border-width: 0px;
+    color: #000000;
+    font-weight: bold;
+    transition: .8s;
+  }
+  .nav{
+    min-width: 100%;
+    margin-right: 10px;
+  }
+  .nav-tab{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    min-width: 100%;
+  }
+  .nav-item{
+    
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    transition: .4s;
+  }
+  .nav-space{
+    margin-right: 10px;
+  }
+ .item{
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  transition: .4s;
+ }
+
+  .event-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0px;
+    list-style-type: none;
+    margin-top: 20px;
+  }
+
+.img{
+  width: 220px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+.event{
+  margin: 20px;
+  position: relative;
+}
+.content{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transition: 0.8s;
+  font-style: italic;
+  font-size: 30px;
+  font-family: "Lemon";
+}
+.content:hover{
+   opacity: 1;
+}
+.img:hover{
+opacity: 0.2;
+}
+
+@media screen and (max-width:576px){
+
+  .tabs-container{
+    display: none;
+   }
+  
+   .reg-item{
+    display: none;
+   }
+
+   .tab-btn{
+    font-size: 16px;
+    margin-right: 7px;
+  
+   }
+   .bg-container{
+    height: 160vh;
+    padding: 20px;
+    height: 140vh;
+   }
+
+   .tab-register-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+  }
+  .img{
+    width: 240px;
+    height: 155px;
+  }
+  .event{
+    margin-top: 10px;
+  }
+ 
+  .main-heading{
+      color: white;
+      font-size: 20px;
+      font-family: "Inter";
+      font-weight: bold;
+      color: whitesmoke;
+      letter-spacing: 0px;
+  }
+
+  .logo-container{
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .logo{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+  }
+  .content{
+    opacity: .8;
+    text-align: center !important;
+    font-size: 20px;
+  }
+  .img{
+    opacity: .9;
+  }
+}
+
+  @media screen and (min-width:577px) and (max-width:768px){
+    .main-heading{
+      font-size: 24px;
+    }
+    .tabs-container{
+      display: none;
+     }
+    
+     
+     .tab-btn{
+      font-size: 16px;
+    
+     }
+     .bg-container{
+      height: 220vh;
+      padding: 20px;
+     }
+     .tab-register-container{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      min-width: 650px;
+     margin-right: 20px;
+  }
+  .tabs-container{
+    min-width: 400px;
+  
+  }  
+    .img{
+      width: 330px;
+      height: 200px;
+    }
+    .event{
+      margin-top: 10px;
+    }
+
+
+}
+  
+@media screen and (min-width:769px) and (max-width:992px){
+  .nav{
+    display: none;
+  }
+  .icon{
+    font-size: 40px;
+}
+  .main-heading{
+  font-size: 28px;
+  }
+  .bg-container{
+    padding-top: 50px;
+    padding-left: 20px;
+    height: 130vh;
+  }
+  .tab-register-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 650px;
+   margin-right: 10px;
+}
+.tabs-container{
+  min-width: 400px;
+
+}
+.tab-btn {
+  font-weight: 500;
+  font-size: 19px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+.event-container{
+    
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.img{
+width: 300px;
+height: 200px;
+}
+.event{
+margin: 25px;
+}
+
+
+}
+
+@media screen and (min-width:993px) and (max-width:1200px){
+  .nav{
+    display: none;
+  }
+  .icon{
+    font-size: 40px;
+}
+  .main-heading{
+  font-size: 40px;
+  }
+  .bg-container{
+    padding-top: 60px;
+    padding-left: 20px;
+    height: 180vh;
+  }
+  .tab-register-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 800px;
+}
+.tabs-container{
+  min-width: 550px;
+  margin-right: 40px;
+}
+.tab-btn {
+  font-weight: 500;
+  font-size: 24px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.reg-btn{
+  width: 160px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 16;
+}
+
+.event-container{
+    
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.img{
+width: 370px;
+height: 250px;
+}
+.event{
+margin: 30px;
+}
+
+}
+
+@media screen and (min-width:1201px){
+  .nav{
+    display: none;
+  }
+  .icon{
+    font-size: 40px;
+}
+  .main-heading{
+  font-size: 40px;
+  }
+  .bg-container{
+    padding-top: 60px;
+    padding-left: 20px;
+    height: 130vh;
+
+  }
+  .tab-register-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1200px;
+    padding-left: 20px;
+}
+.tabs-container{
+  min-width: 800px;
+ 
+}
+.tab-btn {
+  font-weight: 500;
+  font-size: 30px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.reg-btn{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Inter";
+}
+
+.event-container{
+    
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.img{
+width: 360px;
+height: 240px;
+}
+.event{
+margin: 25px;
+}
+
+}

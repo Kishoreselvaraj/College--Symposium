@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+}
+.upper-space-1{
+    height: 25vh;
+}
+
+
+
+@media (max-width:570px) {
+    .icons-row {
+      display: none;
+    }
+    .upper-space-1{
+      height: 0vh;
+    }
+    .carousel-inner{
+      padding-top:0rem !important;
+    }
+   
+.connect-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  margin-top: 50px;
+  min-width: 600px;
+}
+.heading{
+  color: green;
+  font-family: "Inter";
+  font-weight: bold;
+  text-align: center;
+  font-size:50px;
+  margin-bottom: 20px;
+}
+.social-media-list-container{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 30px;
+  min-width: 400px;
+  margin-bottom: 20px;
+}
+.list-item{
+  width: 60px;
+  height: 60px;
+  background-color: grey;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 16px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.img{
+  width: 40px;
+  height: 40px;
+}
+
+.map-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.map{
+  width: 80%;
+}
+
+.label-color{
+color: white;
+}
+.select-menu{
+  width: 500px;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+  }
+
+.connect-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 150vh;
+    margin-top: 50px;
+}
+  .heading{
+    color: green;
+    font-family: "Inter";
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .social-media-list-container{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 30px;
+    min-width: 400px;
+    margin-bottom: 20px;
+  }
+.list-item{
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.img{
+    width: 40px;
+    height: 40px;
+}
+
+.map-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.map{
+    width: 80%;
+}
+
+.label-color{
+  color: white;
+}
+
+
+
+/* ===== Google Font Import - Poppins ===== */
+
+.select-menu{
+    width: 500px;
+    display: flex;
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+.select-menu .select-btn{
+    display: flex;
+    height: 55px;
+    background: grey;
+    color: #F2F2F2;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 20px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.select-btn i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+.select-menu.active .select-btn i{
+    transform: rotate(-180deg);
+}
+.select-menu .options{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+}
+.select-menu.active .options{
+    display: block;
+}
+.options .option{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+.options .option:hover{
+    background: #F2F2F2;
+}
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+.option .option-text{
+    font-size: 18px;
+    color: #333;
+}
+.contact-list-container{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  
+  margin-left: 85px;
+  margin-top: 50px;
+}
+.contact-list{
+  list-style-type: none;
+  
+}
+.contact-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-name{
+  display: grid;
+  grid-template-columns: 200px;
+}
+.whatsapp-img{
+width: 40px;
+height: 32px;
+}
+
+.contact-name a{
+  text-decoration: none;
+}
+
+.name{
+  font-family: "Inter";
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: start;
+}
+
+
+.number{
+  font-family: "Inter";
+  font-size: 16px;
+  color: whitesmoke;
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,229 @@
+body{
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  
+}
+
+.icon{
+    margin-top: 3vw;
+    margin-left: 4vw;
+    float: left;
+    }
+
+.back-button{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+.uiux{
+    width: 80vw;
+    height: 40vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 1vw;
+    
+}
+
+.arw{
+    width: 3vw;
+}
+
+.eventname{
+    font-size: 1.2vw;
+    width: 40vw;
+    height: 120px;
+    position: absolute;
+    left: 56vw;
+    top: 4vw;
+    text-align: center;
+    margin-top: -1vw;
+
+}
+
+
+button{
+    width: 15vw;
+    max-width: 150px;
+    height: 5vh;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    
+    
+}
+
+
+button>span,button>img{
+    color: white;
+    vertical-align: middle;
+     
+}
+
+.button1 img,.button2 img{
+    width: 2vw;
+}
+
+.button1{
+    margin-left: 10vw;
+    
+  
+}
+
+.button1{
+    margin-top: 20px;
+    
+    
+}
+
+.button2{
+    width:19vw;
+    max-width:190px;
+    margin-left: 1vw;
+}
+
+p,li{
+    color: white;
+    margin-left: 10vw ;
+    margin-right: 10vw;
+    font-size: 17px;
+    word-spacing: 1px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-family: 'Inter';
+    text-align: justify;
+}
+
+h1{
+    color: white;
+    margin-left: 10vw ;
+    margin-right: 10vw;
+    font-stretch: expanded;
+    word-spacing: 3px;
+    line-height: 25px;
+    letter-spacing: 1px;
+   
+}
+
+
+h3{
+    color: white;
+    font-stretch: expanded;
+    word-spacing: 3px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.eventname p{
+    font-size: 1.2vw;
+    margin-left: 13vw;
+}
+
+
+.btn1{
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    position: absolute;
+    left: 73vw;
+    top:38vw;
+    font-weight: 600;
+    text-align: center;
+    height: 5vw;
+    max-height: 40px;
+}
+
+.btn2{
+    display: none;
+}
+
+
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+.button1:hover{
+    color: white;
+        background: linear-gradient(to right,rgb(255, 0, 255),rgb(71, 71, 185));
+}
+
+
+.button2:hover{
+    color: white;
+        background: linear-gradient(to right,rgb(255, 0, 255),rgb(71, 71, 185));
+}
+
+@media(max-width:430px){
+    .eventname p{
+        margin-top: -14px;
+    }
+    .button1{
+        width: 90px;
+        height:30px ;
+        background-color: grey;
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+    .button2{
+        width: 140px;
+        height:30px ;
+        background-color: grey;
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+
+    button>span,button>img{
+        color: white;
+        vertical-align: middle;
+         
+    }
+    
+
+
+    .button img{
+        width: 2vw;
+    }
+
+    .btn2{
+        color: white;
+        background: linear-gradient(to right,rgb(255, 0, 255),rgb(71, 71, 185));
+        border-radius: 20px;
+        position: relative; 
+        top: 20px;
+          
+        display: block;
+        font-size:20px ;        
+        font-weight: 600;
+        text-align: center;
+        width: 150px;
+        margin-left: 100px;
+        
+    }
+    
+    .btn1{
+        position: absolute;
+        top:135px;
+        font-size: 10px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .button1{
+        color: white;
+            background: linear-gradient(to right,rgb(255, 0, 255),rgb(71, 71, 185));
+    }
+    
+    
+    .button2{
+        color: white;
+            background: linear-gradient(to right,rgb(255, 0, 255),rgb(71, 71, 185));
+}
+}

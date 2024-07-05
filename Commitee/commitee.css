@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+    background-image: url("images/background-community.png");  
+    width: 70vw;
+    height: 100%;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.upper-space-1{
+    height: 25vh;
+}
+
+.navbar-toggler{
+  display: none;
+}
+
+#commitee-det{
+  position: absolute;
+  width: 500px;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%);
+ }
+
+ .designation{
+  margin-top: 35px;
+ }
+
+ .designation img{
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 15px;
+  width: 15vw; 
+  height: 15vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
+ #commitee-det h1,h2,h4{
+  color: aliceblue;
+  text-align: center;
+ }
+
+ #commitee-det h1{
+  font-size: 27px;
+  text-decoration: underline;
+  font-weight: 500;
+ }
+
+ #commitee-det h2{
+  font-size: 24px;
+ }
+
+ #commitee-det h4{
+  font-size: 20px;
+ }
+
+ .patron img{
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 15px;
+  width: 15vw; 
+  height: 15vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .HOD-det{
+  margin-top: 35px;
+ }
+
+ .staff-det{
+  margin-top: 35px;
+ }
+
+ .stud-det{
+  margin-top: 35px;
+ }
+
+ @media (max-width:460px){
+  .designation img{
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 15px;
+    width: 35vw; 
+    height: 35vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   #commitee-det h1{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 500;
+    width: auto;
+   }
+  
+   #commitee-det h2{
+    font-size: 18px;
+   }
+  
+   #commitee-det h4{
+    font-size: 16px;
+   }
+
+   .HOD-det{
+    margin-top: 25px;
+   }
+  
+   .staff-det{
+    margin-top: 25px;
+   }
+  
+   .stud-det{
+    margin-top: 25px;
+   }
+
+   a{
+    position: relative;
+    display: table;
+   }
+   .navbar-toggler{
+    display: block;
+  }  
+  .icons-row {
+    display: none;
+  }
+  .upper-space-1{
+    height: 0vh;
+  }
+  .carousel-inner{
+    padding-top:0rem !important;
+  }
+ }
